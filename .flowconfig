@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/.*
+.*/build/.*
+.*/node_modules/(?!(styled-components|react|next|react-redux|memory-cache|next-routes|prop-types|webpack|redux|express))/*.
+
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+module.system.node.resolve_dirname=node_modules
+
+[strict]
